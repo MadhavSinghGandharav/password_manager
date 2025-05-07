@@ -1,0 +1,11 @@
+[project]
+name = "password-manager"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "customtkinter>=5.2.2",
+    "pillow>=11.2.1",
+    "pyperclip>=1.9.0",
+]

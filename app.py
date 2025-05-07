@@ -98,32 +98,32 @@ frame.place(x=350,y=0)
 
 frame2=ctk.CTkScrollableFrame(root,width=350,height=600,corner_radius=0,scrollbar_button_color="#2cc985")
 
-bg_img = Image.open('leaves-5610361_1280.png')
+bg_img = Image.open('assets/leaves-5610361_1280.png')
 bg_img = ctk.CTkImage(bg_img,size=(350,600))
 
-logo= Image.open('logo.png')
+logo= Image.open('assets/logo.png')
 logo= ctk.CTkImage(logo,size=(380,60))
 
-tag= Image.open('tag.png')
+tag= Image.open('assets/tag.png')
 tag= ctk.CTkImage(tag,size=(50,50))
 
 bg=ctk.CTkLabel(bg_frame,image=bg_img,text=None)
 bg.place(x=0,y=0)
 
-easy= Image.open('easy.png')
+easy= Image.open('assets/easy.png')
 easy= ctk.CTkImage(easy,size=(50,50))
 
-medium= Image.open('medium.png')
+medium= Image.open('assets/medium.png')
 medium= ctk.CTkImage(medium,size=(50,50))
 
-hard= Image.open('hard.png')
+hard= Image.open('assets/hard.png')
 hard= ctk.CTkImage(hard,size=(50,50))
 
 
-size= Image.open('size.png')
+size= Image.open('assets/size.png')
 size= ctk.CTkImage(size,size=(50,50))
 
-copyicon= Image.open('copy.png')
+copyicon= Image.open('assets/copy.png')
 copyicon= ctk.CTkImage(copyicon,size=(40,40))
 
 heading=ctk.CTkLabel(frame,
